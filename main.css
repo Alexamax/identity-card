@@ -7,14 +7,14 @@
 	border-radius: 15px;
 	font-family: Calibri, sans-serif;
 	grid-template: "sivi-grb    blanko      republika  republika  republika"
-				   "sivi-grb    blanko      licna-k    licna-k    licna-k" 
-				   "fotografija fotografija prezime    prezime    crveni-grb"
-				   "fotografija fotografija ime        ime        crveni-grb"
-				   "fotografija fotografija datum-rodj datum-rodj crveni-grb"
-				   "fotografija fotografija pol        reg-br     siva-slika"
-				   "fotografija fotografija datum-izd  datum-izd  siva-slika"
-				   "fotografija fotografija datum-vaz  datum-vaz  siva-slika" 
-				   "izdaje 		izdaje 		izdaje 	   izdaje	  potpis";
+		       "sivi-grb    blanko      licna-k    licna-k    licna-k" 
+		       "fotografija fotografija prezime    prezime    crveni-grb"
+		       "fotografija fotografija ime        ime        crveni-grb"
+		       "fotografija fotografija datum-rodj datum-rodj crveni-grb"
+		       "fotografija fotografija pol        reg-br     siva-slika"
+		       "fotografija fotografija datum-izd  datum-izd  siva-slika"
+		       "fotografija fotografija datum-vaz  datum-vaz  siva-slika" 
+		       "izdaje 	    izdaje 	izdaje 	   izdaje     potpis";
 	grid-template-columns: 80px 80px 100px 100px 130px;
 	grid-template-rows: 30px 30px 35px 35px 35px 35px 35px 35px 35px;
 }

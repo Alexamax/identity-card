@@ -1,0 +1,119 @@
+.licna-karta {
+	display: grid;
+	width: 490px;
+	height: 305px;
+	border: 3px black solid;
+	padding: 4px 8px;
+	border-radius: 15px;
+	font-family: Calibri, sans-serif;
+	grid-template: "sivi-grb    blanko      republika  republika  republika"
+				   "sivi-grb    blanko      licna-k    licna-k    licna-k" 
+				   "fotografija fotografija prezime    prezime    crveni-grb"
+				   "fotografija fotografija ime        ime        crveni-grb"
+				   "fotografija fotografija datum-rodj datum-rodj crveni-grb"
+				   "fotografija fotografija pol        reg-br     siva-slika"
+				   "fotografija fotografija datum-izd  datum-izd  siva-slika"
+				   "fotografija fotografija datum-vaz  datum-vaz  siva-slika" 
+				   "izdaje 		izdaje 		izdaje 	   izdaje	  potpis";
+	grid-template-columns: 80px 80px 100px 100px 130px;
+	grid-template-rows: 30px 30px 35px 35px 35px 35px 35px 35px 35px;
+}
+
+.sivi-grb {
+	grid-area: sivi-grb;
+	align-self: center;
+	justify-self: center;
+}
+
+.republika {
+	grid-area: republika;
+	align-self: center;
+}
+
+.licna-k {
+	grid-area: licna-k;
+	align-self: center;
+}
+
+.fotografija {
+	grid-area: fotografija;
+	align-self: center;
+	justify-self: center;
+}
+
+.prezime {
+	grid-area: prezime;
+	align-self: center;
+}
+
+.ime {
+	grid-area: ime;
+	align-self: center;
+}
+
+.datum-rodj {
+	grid-area: datum-rodj;
+	align-self: center;
+}
+
+.pol {
+	grid-area: pol;
+	align-self: center;
+}
+
+.reg-br {
+	grid-area: reg-br;
+	align-self: center;
+}
+
+.datum-izd {
+	grid-area: datum-izd;
+	align-self: center;
+}
+
+.datum-vaz {
+	grid-area: datum-vaz;
+	align-self: center;
+}
+
+.izdaje {
+	grid-area: izdaje;
+	align-self: center;
+}
+
+.crveni-grb {
+	grid-area: crveni-grb;
+	align-self: end;
+	justify-self: center;
+}
+
+.siva-slika {
+	grid-area: siva-slika;
+	align-self: center;
+	justify-self: center;
+}
+
+.potpis {
+	grid-area: potpis;
+	align-self: center;
+	justify-self: center;
+}
+
+.licna-karta > * { /*ovim se selektuju svi elementi unutar div-a licna-karta*/
+	/*border: 1px black solid;*/
+}
+
+.velika-slova {
+	font-size: 18px;
+	font-weight: bold;
+	color: #901;
+	line-height: 13px;
+}
+
+.mala-slova {
+	font-size: 13px;
+	font-size: italic;
+	color: #aaa;
+	line-height: 9px;
+}
+
